@@ -10,7 +10,7 @@
     "ecmaVersion": 2017,
     "sourceType": "module",
     "ecmaFeatures": {
-        "experimentalObjectRestSpread": true
+      "parserOptions.ecmaVersion": true
     }
   },
   "rules": {
@@ -18,5 +18,6 @@
     "strict": ["error", "global"],
     "curly": "warn",
     "no-unused-vars": "warn"
-  }
+  },
+  "parser": "babel-eslint"
 }
